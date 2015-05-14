@@ -1,0 +1,16 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@title <b>Yo Yo Honey Singh</b></title>
+     
+        <link style="text-align:center" rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <script style="text-align:center" src="@routes.Assets.at("javascripts/jquery-1.11.1.min.js")" type="text/javascript"></script>
+    </head>
+    <body>
+        @content
+   
+    </body>
+</html>
