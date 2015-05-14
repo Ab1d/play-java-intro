@@ -260,3 +260,52 @@ Copy resource mappings:
 Total time: 8 s, completed May 14, 2015 8:11:26 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
+> {file:/Users/Abid/play-java-intro/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@6f630366, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/Abid/play-java-intro/target/scala-2.10/twirl/main/views/html/index.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/Abid/play-java-intro/target/scala-2.10/twirl/main/views/html/index.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/Abid/play-java-intro/target/scala-2.10/twirl/main/views/html/index.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /Users/Abid/play-java-intro/target/scala-2.10/classes...
+Compiling 1 Scala source to /Users/Abid/play-java-intro/target/scala-2.10/classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 4b1f0972, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/Users/Abid/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+	-classpath
+	/Users/Abid/play-java-intro/target/scala-2.10/classes:/Users/Abid/Documents/activator-1.3.2/repository/com.typesafe.play/twirl-api_2.10/1.0.2/jars/twirl-api_2.10.jar:/Users/Abid/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.1.jar:/Users/Abid/.ivy2/cache/com.typesafe.play/play_2.10/jars/play_2.10-2.3.9.jar:/Users/Abid/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.3.9.jar:/Users/Abid/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.3.9.jar:/Users/Abid/.ivy2/cache/com.typesafe.play/play-iteratees_2.10/jars/play-iteratees_2.10-2.3.9.jar:/Users/Abid/.ivy2/cache/org.scala-stm/scala-stm_2.10/jars/scala-stm_2.10-0.7.jar:/Users/Abid/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/Users/Abid/.ivy2/cache/com.typesafe.play/play-json_2.10/jars/play-json_2.10-2.3.9.jar:/Users/Abid/.ivy2/cache/com.typesafe.play/play-functional_2.10/jars/play-functional_2.10-2.3.9.jar:/Users/Abid/.ivy2/cache/com.typesafe.play/play-datacommons_2.10/jars/play-datacommons_2.10-2.3.9.jar:/Users/Abid/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar:/Users/Abid/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.6.jar:/Users/Abid/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.3.2.jar:/Users/Abid/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.3.2.jar:/Users/Abid/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.3.2.jar:/Users/Abid/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar:/Users/Abid/.ivy2/cache/io.netty/netty/bundles/netty-3.9.8.Final.jar:/Users/Abid/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.2.jar:/Users/Abid/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.6.jar:/Users/Abid/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.6.jar:/Users/Abid/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.6.jar:/Users/Abid/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.1.jar:/Users/Abid/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.1.jar:/Users/Abid/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.3.4.jar:/Users/Abid/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/jars/akka-slf4j_2.10-2.3.4.jar:/Users/Abid/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.9.jar:/Users/Abid/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/Users/Abid/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/Users/Abid/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/Users/Abid/.ivy2/cache/com.typesafe.play/play-java_2.10/jars/play-java_2.10-2.3.9.jar:/Users/Abid/Documents/activator-1.3.2/repository/org.yaml/snakeyaml/1.13/bundles/snakeyaml.jar:/Users/Abid/Documents/activator-1.3.2/repository/org.hibernate/hibernate-validator/5.0.3.Final/jars/hibernate-validator.jar:/Users/Abid/Documents/activator-1.3.2/repository/javax.validation/validation-api/1.1.0.Final/jars/validation-api.jar:/Users/Abid/Documents/activator-1.3.2/repository/com.fasterxml/classmate/1.0.0/bundles/classmate.jar:/Users/Abid/Documents/activator-1.3.2/repository/org.jboss.logging/jboss-logging/3.2.0.Final/jars/jboss-logging.jar:/Users/Abid/Documents/activator-1.3.2/repository/org.springframework/spring-context/4.0.3.RELEASE/jars/spring-context.jar:/Users/Abid/Documents/activator-1.3.2/repository/org.springframework/spring-core/4.0.3.RELEASE/jars/spring-core.jar:/Users/Abid/Documents/activator-1.3.2/repository/org.springframework/spring-beans/4.0.3.RELEASE/jars/spring-beans.jar:/Users/Abid/Documents/activator-1.3.2/repository/org.javassist/javassist/3.19.0-GA/bundles/javassist.jar:/Users/Abid/Documents/activator-1.3.2/repository/org.reflections/reflections/0.9.8/jars/reflections.jar:/Users/Abid/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar:/Users/Abid/Documents/activator-1.3.2/repository/dom4j/dom4j/1.6.1/jars/dom4j.jar:/Users/Abid/Documents/activator-1.3.2/repository/com.google.code.findbugs/jsr305/2.0.3/jars/jsr305.jar:/Users/Abid/Documents/activator-1.3.2/repository/org.apache.tomcat/tomcat-servlet-api/8.0.5/jars/tomcat-servlet-api.jar:/Users/Abid/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.10/jars/play-java-jdbc_2.10-2.3.9.jar:/Users/Abid/.ivy2/cache/com.typesafe.play/play-jdbc_2.10/jars/play-jdbc_2.10-2.3.9.jar:/Users/Abid/Documents/activator-1.3.2/repository/com.jolbox/bonecp/0.8.0.RELEASE/bundles/bonecp.jar:/Users/Abid/Documents/activator-1.3.2/repository/com.h2database/h2/1.3.175/jars/h2.jar:/Users/Abid/Documents/activator-1.3.2/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/Users/Abid/.ivy2/cache/com.typesafe.play/play-java-ebean_2.10/jars/play-java-ebean_2.10-2.3.9.jar:/Users/Abid/Documents/activator-1.3.2/repository/org.avaje.ebeanorm/avaje-ebeanorm/3.3.4/jars/avaje-ebeanorm.jar:/Users/Abid/Documents/activator-1.3.2/repository/org.avaje.ebeanorm/avaje-ebeanorm-agent/3.2.2/jars/avaje-ebeanorm-agent.jar:/Users/Abid/Documents/activator-1.3.2/repository/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/1.0.1.Final/jars/hibernate-jpa-2.0-api.jar
+Scala compilation took 2.490738 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(/Users/Abid/play-java-intro/conf/application.conf,/Users/Abid/play-java-intro/target/scala-2.10/classes/application.conf)
+	(/Users/Abid/play-java-intro/conf/evolutions,/Users/Abid/play-java-intro/target/scala-2.10/classes/evolutions)
+	(/Users/Abid/play-java-intro/conf/routes,/Users/Abid/play-java-intro/target/scala-2.10/classes/routes)
+	(/Users/Abid/play-java-intro/conf/evolutions/default,/Users/Abid/play-java-intro/target/scala-2.10/classes/evolutions/default)
+	(/Users/Abid/play-java-intro/conf/evolutions/default/1.sql,/Users/Abid/play-java-intro/target/scala-2.10/classes/evolutions/default/1.sql)
+Total time: 4 s, completed May 14, 2015 8:14:28 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
